@@ -6,9 +6,19 @@
 
 ACharacter::ACharacter()
 {
-	X = 1;
-	Y = 1;
-	Z = 1;
+	Transform.Location.X = 0;
+	Transform.Location.Y = 0;
+	Transform.Location.Z = 0;
+
+	Transform.Rotation.X = 0;
+	Transform.Rotation.Y = 0;
+	Transform.Rotation.Z = 0;
+
+	Transform.Scale.X = 0;
+	Transform.Scale.Y = 0;
+	Transform.Scale.Z = 0;
+
+	StaticMesh = 0;
 
 	Frame = new AFrame();
 	Tires = new ATire[4]();
@@ -26,6 +36,14 @@ void ACharacter::Handeling()
 }
 
 void ACharacter::Suspension()
+{
+}
+
+void ACharacter::GetItem()
+{
+}
+
+void ACharacter::UseItem()
 {
 }
 

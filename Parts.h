@@ -1,4 +1,6 @@
 #pragma once
+#include "Actor.h"
+
 struct FSpeed
 {
 	float Ground;
@@ -15,17 +17,11 @@ struct FHandling
 	float AntiGravity;
 };
 
-class AParts
+class AParts : public AActor
 {
 public:
 	AParts();
 	~AParts();
-
-	int X;
-	int Y;
-	int Z;
-
-	int Mesh;
 
 	FSpeed Speed;
 	float Acceleration;

@@ -2,12 +2,6 @@
 
 AParts::AParts()
 {
-	X = 0;
-	Y = 0;;
-	Z = 0;
-
-	Mesh = 0;
-
 	Speed.Air = 0.0f;
 	Speed.AntiGravity = 0.0f;
 	Speed.Ground = 0.0f;

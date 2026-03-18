@@ -1,21 +1,24 @@
 #pragma once
+#include "Actor.h"
 
 class AFrame;
 class ATire;
 class AGlider;
 class AItem;
 
-class ACharacter
+class ACharacter : public AActor
 {
 public:
 	ACharacter();
+
 	void Move();
 	void Handeling();
 	void Suspension();
+
+	void GetItem();
+	void UseItem();
+
 	~ACharacter();
-	int X;
-	int Y;
-	int Z;
 
 	AFrame* Frame;
 	ATire* Tires;

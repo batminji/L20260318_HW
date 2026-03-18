@@ -123,23 +123,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
     <ClCompile Include="Frame.cpp" />
     <ClCompile Include="Character.cpp" />
     <ClCompile Include="Glider.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parts.cpp" />
-    <ClCompile Include="StandardKart.cpp" />
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Track.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Actor.h" />
     <ClInclude Include="Frame.h" />
     <ClInclude Include="Character.h" />
     <ClInclude Include="Glider.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Parts.h" />
-    <ClInclude Include="StandardKart.h" />
     <ClInclude Include="Tire.h" />
     <ClInclude Include="Track.h" />
   </ItemGroup>

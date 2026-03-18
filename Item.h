@@ -1,12 +1,11 @@
 #pragma once
-class AItem
+#include "Actor.h"
+
+class AItem : AActor
 {
 public:
 	AItem();
 	void Active();
 	~AItem();
-
-	int Mesh;
-
 };
 

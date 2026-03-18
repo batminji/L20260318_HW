@@ -1,16 +1,13 @@
 #pragma once
+#include "Actor.h"
 
 class ACharacter;
 
-class ATrack
+class ATrack : public AActor
 {
 public:
 	ATrack();
 	~ATrack();
-
-	int X;
-	int Y;
-	int Z;
 
 	ACharacter* Characters;
 };

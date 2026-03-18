@@ -1,6 +1,6 @@
-#include "Frame.h"
+#include "Actor.h"
 
-AFrame::AFrame()
+AActor::AActor()
 {
 	Transform.Location.X = 0;
 	Transform.Location.Y = 0;
@@ -17,6 +17,10 @@ AFrame::AFrame()
 	StaticMesh = 0;
 }
 
-AFrame::~AFrame()
+void AActor::AddActorLocalOffset(FVector DeltaLocation)
+{
+}
+
+AActor::~AActor()
 {
 }
