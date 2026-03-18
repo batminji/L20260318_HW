@@ -129,6 +129,7 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Parts.cpp" />
+    <ClCompile Include="StandardKart.cpp" />
     <ClCompile Include="Tire.cpp" />
     <ClCompile Include="Track.cpp" />
   </ItemGroup>
@@ -138,6 +139,7 @@
     <ClInclude Include="Glider.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Parts.h" />
+    <ClInclude Include="StandardKart.h" />
     <ClInclude Include="Tire.h" />
     <ClInclude Include="Track.h" />
   </ItemGroup>
